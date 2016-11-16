@@ -1,0 +1,104 @@
+﻿@model BrumarAps.Models.TranslateViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Danish</title>
+</head>
+<body>
+    <div> 
+        <h2>Edit Danish</h2>
+        <p>Line breaks can be added to text by inserting &lt;br /&gt; where the line should break</p>
+        <table class="tg">
+            <tr>
+                <th style="width:50px">ID</th>
+                <th style="width:100px">Current Danish</th>
+                <th style="width:100px">New Danish</th>
+                <th style="width:100px;padding-left:100px;">Original English</th>
+            </tr>
+            @for (int i = 0; i < Model.English.Count; i++ )
+            {
+                <tr>
+                    <td style="width:100px">
+                         @Model.Original[i].ID
+                    </td>
+                    <td style="width:100px">
+                        <textarea cols="35" rows="5" disabled>
+                            @if (String.IsNullOrWhiteSpace(Model.Original[i].TextValue))
+                            {
+                                <text>TRANSLATION MISSING</text>
+                            }
+                            else
+                            {
+                                @Model.Original[i].TextValue
+                            }
+
+                        </textarea>
+
+
+
+                    </td>
+                    <td style="width:100px">
+                        <textarea id="newtext_@Model.Original[i].ID" class="newTexts" cols="35" rows="5"></textarea>
+                    </td>
+                    <td style="width:100px;padding-left:100px;">
+                        <textarea cols="35" rows="5" disabled>@Model.English[i].TextValue</textarea>
+                    </td>
+                </tr>
+            }
+        </table>
+        <br />
+        Authentication code: <input type="password" id="authCode" />
+        <br /><br />
+        <input type="button" value="Update texts" onclick="updateTexts()" />
+    </div>
+
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        function updateTexts() {
+            var textboxes = document.getElementsByClassName("newTexts");
+            var filledBoxes = [];
+
+            for (var i = 0; i < textboxes.length; i++) {
+                if (textboxes[i].value != "") {
+                    filledBoxes.push(textboxes[i]);
+                }
+            }
+
+            var updateIds = [];
+            var texts = [];
+
+            for (var i = 0; i < filledBoxes.length; i++) {
+
+                updateIds[i] = filledBoxes[i].id.split("_")[1];
+                texts[i] = document.getElementById(filledBoxes[i].id).value;
+            }
+            var authCode = $("#authCode").val();
+            jQuery.ajax({
+                type: "POST",
+                url: "@Url.Action("UpdateDanish")",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify({ ids: updateIds, newTexts: texts, AuthCode: authCode }),
+                success: function (data) {
+                    if (data == "WRONG") {
+                        alert("Wrong authentication code");
+                    } else {
+                        alert("DB was successfully updated");
+                    }
+                },
+                failure: function (errMsg) {
+                    alert(errMsg);
+                }
+            });
+
+
+        }
+    </script>
+</body>
+</html>

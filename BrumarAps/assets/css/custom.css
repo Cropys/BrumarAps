@@ -1,0 +1,21 @@
+/* Add here all your css styles (customizations) */
+.navbar-brand span {
+    color: darkcyan !important;
+}
+
+.black {
+    color: black !important;
+}
+
+.orange {
+    color: orange !important;
+}
+
+.darkcyan {
+    color: darkcyan;
+}
+
+li .page-scroll .active a {
+    background-color: black !important;
+}
+/*The M for montpro*/
