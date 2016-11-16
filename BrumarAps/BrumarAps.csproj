@@ -212,6 +212,32 @@
     <Content Include="assets\img\icons\social\xing.png" />
     <Content Include="assets\img\icons\social\yahoo.png" />
     <Content Include="assets\img\icons\social\youtube.png" />
+    <Content Include="assets\img\main\img1.jpg" />
+    <Content Include="assets\img\main\img10.jpg" />
+    <Content Include="assets\img\main\img11.jpg" />
+    <Content Include="assets\img\main\img12.jpg" />
+    <Content Include="assets\img\main\img13.jpg" />
+    <Content Include="assets\img\main\img14.jpg" />
+    <Content Include="assets\img\main\img15.jpg" />
+    <Content Include="assets\img\main\img16.jpg" />
+    <Content Include="assets\img\main\img17.jpg" />
+    <Content Include="assets\img\main\img18.jpg" />
+    <Content Include="assets\img\main\img19.jpg" />
+    <Content Include="assets\img\main\img2.jpg" />
+    <Content Include="assets\img\main\img20.jpg" />
+    <Content Include="assets\img\main\img21.jpg" />
+    <Content Include="assets\img\main\img22.jpg" />
+    <Content Include="assets\img\main\img23.jpg" />
+    <Content Include="assets\img\main\img24.jpg" />
+    <Content Include="assets\img\main\img25.jpg" />
+    <Content Include="assets\img\main\img26.jpg" />
+    <Content Include="assets\img\main\img3.jpg" />
+    <Content Include="assets\img\main\img4.jpg" />
+    <Content Include="assets\img\main\img5.jpg" />
+    <Content Include="assets\img\main\img6.jpg" />
+    <Content Include="assets\img\main\img7.jpg" />
+    <Content Include="assets\img\main\img8.jpg" />
+    <Content Include="assets\img\main\img9.jpg" />
     <Content Include="assets\img\mockup\img1.jpg" />
     <Content Include="assets\img\mockup\img2.jpg" />
     <Content Include="assets\img\mockup\img4.jpg" />
@@ -1020,7 +1046,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="assets\img\main\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
