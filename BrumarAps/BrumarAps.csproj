@@ -659,6 +659,8 @@
     <Content Include="assets\plugins\counter\demo\demo.html" />
     <Content Include="assets\plugins\counter\jquery.counterup.js" />
     <Content Include="assets\plugins\counter\jquery.counterup.min.js" />
+    <Content Include="assets\plugins\counter\LICENSE" />
+    <Content Include="assets\plugins\counter\README.md" />
     <Content Include="assets\plugins\counter\waypoints.js" />
     <Content Include="assets\plugins\counter\waypoints.min.js" />
     <Content Include="assets\plugins\cube-portfolio\cubeportfolio\css\cubeportfolio.css" />
@@ -899,6 +901,7 @@
     <Content Include="assets\plugins\owl-carousel\assets\js\google-code-prettify\run_prettify.js" />
     <Content Include="assets\plugins\owl-carousel\assets\js\jquery-1.9.1.min.js" />
     <Content Include="assets\plugins\owl-carousel\changelog.html" />
+    <Content Include="assets\plugins\owl-carousel\demos\.htaccess" />
     <Content Include="assets\plugins\owl-carousel\demos\assets\fullimage1.jpg" />
     <Content Include="assets\plugins\owl-carousel\demos\assets\fullimage2.jpg" />
     <Content Include="assets\plugins\owl-carousel\demos\assets\fullimage3.jpg" />
@@ -922,6 +925,8 @@
     <Content Include="assets\plugins\owl-carousel\demos\images.html" />
     <Content Include="assets\plugins\owl-carousel\demos\itemsCustom.html" />
     <Content Include="assets\plugins\owl-carousel\demos\json.html" />
+    <Content Include="assets\plugins\owl-carousel\demos\json\customData.json" />
+    <Content Include="assets\plugins\owl-carousel\demos\json\data.json" />
     <Content Include="assets\plugins\owl-carousel\demos\lazyLoad.html" />
     <Content Include="assets\plugins\owl-carousel\demos\manipulations.html" />
     <Content Include="assets\plugins\owl-carousel\demos\navOnTop.html" />
@@ -934,6 +939,7 @@
     <Content Include="assets\plugins\owl-carousel\demos\sync.html" />
     <Content Include="assets\plugins\owl-carousel\demos\transitions.html" />
     <Content Include="assets\plugins\owl-carousel\index.html" />
+    <Content Include="assets\plugins\owl-carousel\LICENSE" />
     <Content Include="assets\plugins\owl-carousel\link.txt" />
     <Content Include="assets\plugins\owl-carousel\owl-carousel\AjaxLoader.gif" />
     <Content Include="assets\plugins\owl-carousel\owl-carousel\grabbing.png" />
@@ -1015,8 +1021,14 @@
     <Content Include="assets\plugins\revolution-slider\examples-sources\editor\editor.css" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\editor\editor.js" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello.css" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello-social.eot" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello-social.svg" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello-social.ttf" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello-social.woff" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello.eot" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello.svg" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello.ttf" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello.woff" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\images\apple.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\images\bg1.jpg" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\images\bg2.jpg" />
@@ -1065,6 +1077,7 @@
     <Content Include="assets\plugins\revolution-slider\examples-sources\images\woman.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\arrowleft.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\arrowright.png" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\arrows.psd" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\arrow_large_left.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\arrow_large_right.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\arrow_left.png" />
@@ -1075,6 +1088,7 @@
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\boxed_bgtile.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\bullet.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\bullets.png" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\bullets.psd" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\bullets2.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\bullet_boxed.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\coloredbg.png" />
@@ -1092,6 +1106,7 @@
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\shadow1.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\shadow2.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\shadow3.png" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\small_arrows.psd" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\small_left.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\small_left_boxed.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\small_right.png" />
@@ -1102,7 +1117,10 @@
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\white50.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\css\settings-ie8.css" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\css\settings.css" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\font\revicons.eot" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\font\revicons.svg" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\font\revicons.ttf" />
+    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\font\revicons.woff" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\images\decor_inside.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\images\decor_inside_white.png" />
     <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\images\decor_testimonial.png" />
@@ -1142,24 +1160,6 @@
       <LastGenOutput>BrumarDataModel.cs</LastGenOutput>
       <DependentUpon>BrumarDataModel.edmx</DependentUpon>
     </Content>
-    <Content Include="assets\plugins\counter\LICENSE" />
-    <Content Include="assets\plugins\counter\README.md" />
-    <Content Include="assets\plugins\owl-carousel\demos\.htaccess" />
-    <Content Include="assets\plugins\owl-carousel\demos\json\customData.json" />
-    <Content Include="assets\plugins\owl-carousel\demos\json\data.json" />
-    <Content Include="assets\plugins\owl-carousel\LICENSE" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello-social.eot" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello-social.ttf" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello-social.woff" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello.eot" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello.ttf" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\editor\type\fontello\fontello.woff" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\arrows.psd" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\bullets.psd" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\assets\small_arrows.psd" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\font\revicons.eot" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\font\revicons.ttf" />
-    <Content Include="assets\plugins\revolution-slider\examples-sources\rs-plugin\font\revicons.woff" />
     <None Include="Properties\PublishProfiles\Brumar.dk.pubxml" />
     <None Include="Properties\PublishProfiles\DesktopPub.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
