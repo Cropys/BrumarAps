@@ -166,6 +166,10 @@
     <Content Include="assets\img\bg\bg3.jpg" />
     <Content Include="assets\img\Box\Box1.jpg" />
     <Content Include="assets\img\Box\Box2.jpg" />
+    <Content Include="assets\img\Box\Box3.jpg" />
+    <Content Include="assets\img\Box\Box4.jpg" />
+    <Content Include="assets\img\Box\Box5.jpg" />
+    <Content Include="assets\img\Box\Box6.jpg" />
     <Content Include="assets\img\clients\abena.jpg" />
     <Content Include="assets\img\clients\abena2.jpg" />
     <Content Include="assets\img\clients\baderbrau.png" />
