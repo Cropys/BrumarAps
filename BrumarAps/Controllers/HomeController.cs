@@ -71,10 +71,9 @@ namespace BrumarAps.Controllers
             try
             {
                 System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage();
-                message.To.Add("sb@brumar.dk");
-                message.To.Add("as@brumar.dk");
+                message.To.Add("sb@montpro.dk");
                 message.Subject = "From Contact Us form on brumar.dk";
-                message.From = new System.Net.Mail.MailAddress("as@brumar.dk");
+                message.From = new System.Net.Mail.MailAddress("sb@montpro.dk");
                 message.Body = custMessage;
                 System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtprelay.dandomain.dk");
                 smtp.Send(message);
