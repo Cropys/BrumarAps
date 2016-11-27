@@ -18,4 +18,10 @@
 li .page-scroll .active a {
     background-color: black !important;
 }
+.bg-custom { 
+    background-image: url("/assets/img/sliders/revolution/Reol-02.jpeg");
+}
+.margin-top-100 {
+    margin-top:100px;
+}
 /*The M for montpro*/
