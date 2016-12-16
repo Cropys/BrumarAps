@@ -219,6 +219,14 @@
     <Content Include="assets\img\icons\social\xing.png" />
     <Content Include="assets\img\icons\social\yahoo.png" />
     <Content Include="assets\img\icons\social\youtube.png" />
+    <Content Include="assets\img\main\abena1.JPG" />
+    <Content Include="assets\img\main\abena2.JPG" />
+    <Content Include="assets\img\main\abena3.JPG" />
+    <Content Include="assets\img\main\abena4.JPG" />
+    <Content Include="assets\img\main\abena5.JPG" />
+    <Content Include="assets\img\main\abena6.JPG" />
+    <Content Include="assets\img\main\abena7.JPG" />
+    <Content Include="assets\img\main\abena8.JPG" />
     <Content Include="assets\img\main\img1.jpg" />
     <Content Include="assets\img\main\img10.jpg" />
     <Content Include="assets\img\main\img11.jpg" />
