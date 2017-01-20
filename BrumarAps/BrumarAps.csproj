@@ -166,7 +166,7 @@
     <Content Include="assets\img\bg\bg3.jpg" />
     <Content Include="assets\img\Box\Box1.jpg" />
     <Content Include="assets\img\Box\Box2.jpg" />
-    <Content Include="assets\img\Box\Box3.jpg" />
+    <Content Include="assets\img\Box\Box33.jpg" />
     <Content Include="assets\img\Box\Box4.jpg" />
     <Content Include="assets\img\Box\Box5.jpg" />
     <Content Include="assets\img\Box\Box6.jpg" />
@@ -298,6 +298,7 @@
     <Content Include="assets\img\team\img3-sm.jpg" />
     <Content Include="assets\img\team\img5-md.jpg" />
     <Content Include="assets\img\testimonials\Jørn Petersen.jpg" />
+    <Content Include="assets\img\testimonials\No.jpg" />
     <Content Include="assets\js\app.js" />
     <Content Include="assets\js\plugins\circles-master.js" />
     <Content Include="assets\js\plugins\cube-portfolio-3-ns.js" />
