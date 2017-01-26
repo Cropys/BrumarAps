@@ -166,7 +166,8 @@
     <Content Include="assets\img\bg\bg3.jpg" />
     <Content Include="assets\img\Box\Box1.jpg" />
     <Content Include="assets\img\Box\Box2.jpg" />
-    <Content Include="assets\img\Box\Box33.jpg" />
+    <Content Include="assets\img\Box\Box3.jpg" />
+    <Content Include="assets\img\Box\box33.jpg" />
     <Content Include="assets\img\Box\Box4.jpg" />
     <Content Include="assets\img\Box\Box5.jpg" />
     <Content Include="assets\img\Box\Box6.jpg" />
@@ -1114,8 +1115,10 @@
     <Content Include="Content\Actiplan-English_400px.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Brumar.jpg" />
     <Content Include="Content\Brumar_.jpg" />
     <Content Include="Content\Pieter.jpg" />
+    <Content Include="Content\Sergiu.jpg" />
     <Content Include="Content\Sergiu2.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\skjoldal_.jpg" />
